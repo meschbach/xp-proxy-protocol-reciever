@@ -1,0 +1,14 @@
+{
+  "name": "xp-proxy-protocol-reciever",
+  "version": "1.0.0",
+  "description": "Dumps connection information out for the Proxy Protocol as a Proof of Concept",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Eschbach",
+  "license": "MIT",
+  "dependencies": {
+    "proxy-protocol-v2": "git+https://github.com/ably/proxy-protocol-v2.git#ref=cb6fde671b55f5ca203fe8365da72a14b544aadb"
+  }
+}
